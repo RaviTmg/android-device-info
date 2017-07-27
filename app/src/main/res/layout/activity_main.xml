@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aduech.www.deviceinfo.MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_row="0"
+            >
+            <TextView
+            android:id="@+id/i1"
+            android:layout_width="100dp"
+            android:layout_height="170dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="#8c0002"
+            android:clickable="true"
+            android:freezesText="false"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Device"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+
+            <TextView
+            android:id="@+id/i2"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_width="100dp"
+            android:layout_weight="1"
+            android:layout_height="170dp"
+            android:layout_margin="1dp"
+            android:background="#8c0002"
+            android:clickable="true"
+            android:freezesText="false"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Connectivity"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_row="1"
+            android:layout_column="0"
+            >
+            <TextView
+                android:id="@+id/i3"
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="#8c0002"
+                android:clickable="true"
+                android:freezesText="false"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="SIM"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/i4"
+                android:layout_column="1"
+                android:layout_width="100dp"
+                android:layout_weight="1"
+                android:layout_height="170dp"
+                android:layout_margin="1dp"
+                android:background="#8c0002"
+                android:clickable="true"
+                android:freezesText="false"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Screen"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_row="3"
+            android:layout_column="0"
+            >
+            <TextView
+                android:id="@+id/i5"
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="#8c0002"
+                android:clickable="true"
+                android:freezesText="false"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Memory"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/i6"
+                android:layout_width="100dp"
+                android:layout_height="170dp"
+                android:layout_column="1"
+                android:layout_margin="1dp"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:background="#8c0002"
+                android:clickable="true"
+                android:freezesText="false"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Battery"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+</ScrollView>
